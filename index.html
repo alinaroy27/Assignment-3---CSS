@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Page mini Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--HEADER PART-->
+    <header>
+      <h1>Alina Roy</h1>
+    </header>
+
+    <!--NAVIGATION BAR-->
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!--CONTENT ELEMENTS PART-->
+      <div class="about">
+        <section id="about" class="about-hover">
+          <h2>Summary</h2>
+          <p>
+            I am pursuing Btech in Computer Science Engineering from Dr. Sudhir
+            Chandra Sur Institute of Technology & Sports complex. This is my 3rd
+            year of study. I am eager to learn and explore new things. I am
+            hardworking and responsible individual with a positive attitude and
+            a willingness to take on challenges. I am passionate about
+            innovation and eager to explore opportunities that foster
+            innovation, continuous leraning and personal growth.
+          </p>
+        </section>
+        <section class="about-hover">
+          <h2>Skills & Interests</h2>
+          <ol class="text-style">
+            <li>C(Programming Language)</li>
+            <li>python(Programming Language)</li>
+            <li>SQL</li>
+            <li>IOT</li>
+            <li>Web Development</li>
+          </ol>
+        </section>
+      </div>
+
+      <!--CONTACT FORM PART-->
+      <section id="contact" class="form-style">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" /> <br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+
+      <!--IMAGE GALLERY PART-->
+      <article id="gallery">
+        <h2>Certifications & Achievements</h2>
+
+        <div class="gallery">
+          <figure>
+            <img src="assets/img1.jpg" />
+            <figcaption class="text-style">
+              Course Completion Certificate for - MongoDB
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img2.jpg" />
+            <figcaption class="text-style">
+              Runner Up in project competion for Hardware Project
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img3.jpg" />
+            <figcaption class="text-style">
+              Course Completion Certificate for - Python
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img4.png" />
+            <figcaption class="text-style">
+              Web application deployment workshop - Logic learn
+            </figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <!--FOOTER-->
+      <!--NEW TAG PART-->
+      <footer>
+        <h3><mark>Contact no: 9142502163</mark></h3>
+      </footer>
+    </main>
+  </body>
+</html>
